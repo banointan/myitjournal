@@ -45,6 +45,12 @@ theme:
 # Page tree
 nav:
   - Home: index.md
-  - Tagesberichte: tagesberichte/tb01.md
+  - Tagesberichte:      
+    - Dezember: tagesberichte/dezember2022/tb01.md
+
+  - Lernberichte: 
+    - HPC:      
+      - Git/GitHub: lernberichte/hpc/git:github/lb01.md
+      - Git Befehle: lernberichte/hpc/git:github/lb02.md
 
 

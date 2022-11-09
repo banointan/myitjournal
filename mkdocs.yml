@@ -46,11 +46,20 @@ theme:
 nav:
   - Home: index.md
   - Tagesberichte:      
-    - Dezember: tagesberichte/dezember2022/tb01.md
+    - Dezember: 
+      - 14.11.2022: tagesberichte/dezember2022/tb03.md
+      - 09.11.2022: tagesberichte/dezember2022/tb02.md
+      - 08.11.2022: tagesberichte/dezember2022/tb01.md
 
   - Lernberichte: 
     - HPC:      
       - Git/GitHub: lernberichte/hpc/git:github/lb01.md
       - Git Befehle: lernberichte/hpc/git:github/lb02.md
+
+    - AI:
+      - Projekt:
+        - Minesweeper:
+          - Minesweeper Dokumentation: lernberichte/ai/projekt/minesweeper/minesweeper.md
+          - Minesweeper Code: lernberichte/ai/projekt/minesweeper/code.md
 
 

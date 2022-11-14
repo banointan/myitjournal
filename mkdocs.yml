@@ -46,15 +46,15 @@ theme:
 nav:
   - Home: index.md
   - Tagesberichte:      
-    - Dezember: 
-      - 14.11.2022: tagesberichte/dezember2022/tb03.md
-      - 09.11.2022: tagesberichte/dezember2022/tb02.md
-      - 08.11.2022: tagesberichte/dezember2022/tb01.md
+    - November: 
+      - 14.11.2022: tagesberichte/november2022/tb03.md
+      - 09.11.2022: tagesberichte/november2022/tb02.md
+      - 08.11.2022: tagesberichte/november2022/tb01.md
 
   - Lernberichte: 
     - HPC:      
-      - Git/GitHub: lernberichte/hpc/git:github/lb01.md
-      - Git Befehle: lernberichte/hpc/git:github/lb02.md
+      - Git/GitHub: lernberichte/hpc/git_github/lb01.md
+      - Git Befehle: lernberichte/hpc/git_github/lb02.md
 
     - AI:
       - Projekt:

@@ -7,8 +7,6 @@ edit_uri: "edit/main/docs"
 repo_name: banointan/myitjournal
 repo_url: https://github.com/banointan/myitjournal
 
-
-
 # Configuration
 theme:
   features: 
@@ -17,17 +15,12 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
-
-
     # - navigation.sections
     # - navigation.expand
- 
   name: material
-
   icon:
     repo: fontawesome/brands/git-alt 
     edit: material/pencil
-
   palette: 
   - scheme: default
     primary: black
@@ -50,16 +43,18 @@ nav:
       - 14.11.2022: tagesberichte/november2022/tb03.md
       - 09.11.2022: tagesberichte/november2022/tb02.md
       - 08.11.2022: tagesberichte/november2022/tb01.md
-
   - Lernberichte: 
     - HPC:      
       - Git/GitHub: lernberichte/hpc/git_github/lb01.md
       - Git Befehle: lernberichte/hpc/git_github/lb02.md
-
     - AI:
       - Projekt:
         - Minesweeper:
           - Minesweeper Dokumentation: lernberichte/ai/projekt/minesweeper/minesweeper.md
           - Minesweeper Code: lernberichte/ai/projekt/minesweeper/code.md
+  - Über Mich: about_me/aboutme.md
 
 
+markdown_extensions:
+  - attr_list
+  - md_in_html

@@ -40,6 +40,7 @@ nav:
   - Home: index.md
   - Tagesberichte:      
     - November: 
+      - 21.11.2022: tagesberichte/november2022/tb04.md
       - 14.11.2022: tagesberichte/november2022/tb03.md
       - 09.11.2022: tagesberichte/november2022/tb02.md
       - 08.11.2022: tagesberichte/november2022/tb01.md
@@ -56,7 +57,7 @@ nav:
         - Minesweeper:
           - Minesweeper Dokumentation: lernberichte/ai/projekt/minesweeper/minesweeper.md
           - Minesweeper Code: lernberichte/ai/projekt/minesweeper/code.md
-  - Über Mich: about_me/aboutme.md
+  - Über Mich: aboutme.md
 
 
 markdown_extensions:

@@ -40,6 +40,7 @@ nav:
   - Home: index.md
   - Tagesberichte:      
     - November:
+      - 29.11.2022: tagesberichte/november2022/tb06.md
       - 22.11.2022: tagesberichte/november2022/tb05.md
       - 21.11.2022: tagesberichte/november2022/tb04.md
       - 14.11.2022: tagesberichte/november2022/tb03.md

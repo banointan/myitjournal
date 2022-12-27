@@ -40,6 +40,8 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2022:    
+      - Dezember: 
+        - 27.12.2022: tagesberichte/2022/dezember/tb07.md
       - November:
         - 29.11.2022: tagesberichte/2022/november/tb06.md
         - 22.11.2022: tagesberichte/2022/november/tb05.md
@@ -47,8 +49,6 @@ nav:
         - 14.11.2022: tagesberichte/2022/november/tb03.md
         - 09.11.2022: tagesberichte/2022/november/tb02.md
         - 08.11.2022: tagesberichte/2022/november/tb01.md
-      - Dezember: 
-        - 27.12.2022: tagesberichte/2022/dezember/tb07.md
   - Lernberichte: 
     - HPC:      
       - Tools: 

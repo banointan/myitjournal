@@ -64,6 +64,9 @@ nav:
       - Vagrant:
         - Vagrant Dokumentaion: lernberichte/hpc/vagrant/lb05.md      
         - Vagrantfile: lernberichte/hpc/vagrant/lb06.md     
+      - Server:
+        - Datenbankser: lernberichte/hpc/server/lb07.md 
+        - Webserver: lernberichte/hpc/server/lb08.md
     - AI:
       - Projekt:
         - Minesweeper:

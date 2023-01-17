@@ -63,6 +63,7 @@ nav:
         - Git Befehle: lernberichte/hpc/git_github/lb02.md
       - Vagrant:
         - Vagrant Dokumentaion: lernberichte/hpc/vagrant/lb05.md      
+        - Vagrantfile: lernberichte/hpc/vagrant/lb06.md     
     - AI:
       - Projekt:
         - Minesweeper:

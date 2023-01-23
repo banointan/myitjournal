@@ -74,7 +74,7 @@ nav:
         - Minesweeper:
           - Minesweeper Dokumentation: lernberichte/ai/projekt/minesweeper/minesweeper.md
           - Minesweeper Code: lernberichte/ai/projekt/minesweeper/code.md
-  - Über Mich: aboutme/aboutme.md
+  - Über Mich: aboutme/index.md
 
 
 markdown_extensions:

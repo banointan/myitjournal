@@ -72,6 +72,7 @@ nav:
       - Server:
         - Datenbankser: lernberichte/hpc/server/lb07.md 
         - Webserver: lernberichte/hpc/server/lb08.md
+        - WordPress: lernberichte/hpc/server/wordpress/lb11.md
       - SSL: 
         - SSL & SSL-Zertifikat: lernberichte/hpc/ssl/lb09.md 
         - Mit SSL verschlüsseln: lernberichte/hpc/ssl/lb10.md 

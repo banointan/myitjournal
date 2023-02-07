@@ -39,7 +39,9 @@ theme:
 nav:
   - Home: index.md
   - Tagesberichte:
-    - 2023: 
+    - 2023:
+      - Februar:
+        - 06.02.2023: tagesberichte/2023/februar/tb16.md
       - Januar: 
         - 31.01.2023: tagesberichte/2023/januar/tb15.md
         - 30.01.2023: tagesberichte/2023/januar/tb14.md

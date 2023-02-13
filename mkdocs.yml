@@ -91,7 +91,7 @@ nav:
           - Minesweeper Dokumentation: lernberichte/ai/projekt/minesweeper/minesweeper.md
           - Minesweeper Code: lernberichte/ai/projekt/minesweeper/code.md
   - Über Mich: aboutme/index.md
-
+  - Galerie: aboutme/galerie.md
 
 markdown_extensions:
   - attr_list

@@ -61,7 +61,12 @@ nav:
         - 14.11.2022: tagesberichte/2022/november/tb03.md
         - 09.11.2022: tagesberichte/2022/november/tb02.md
         - 08.11.2022: tagesberichte/2022/november/tb01.md
-  - Lernberichte: 
+  - Lernberichte:
+    - NETSEC:
+      - Referenzmodell:
+        - OSI: lernberichte/netsec/refmod/osi.md
+        - TCP/IP: lernberichte/netsec/refmod/tcp-ip.md
+        - Unterschied: lernberichte/netsec/refmod/unterschied.md
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

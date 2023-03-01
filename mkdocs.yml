@@ -40,7 +40,10 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2023:
+      - März: 
+        - 01.03.2023: tagesberichte/2023/marz/tb20.md
       - Februar:
+        - 28.02.2023: tagesberichte/2023/februar/tb19.md
         - 21.02.2023: tagesberichte/2023/februar/tb18.md
         - 07.02.2023: tagesberichte/2023/februar/tb17.md
         - 06.02.2023: tagesberichte/2023/februar/tb16.md

@@ -72,6 +72,7 @@ nav:
         - OSI: lernberichte/netsec/refmod/osi.md
         - TCP/IP: lernberichte/netsec/refmod/tcp-ip.md
         - Unterschied: lernberichte/netsec/refmod/unterschied.md
+      - Layer 2: lernberichte/netsec/layer2/anfang.md
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

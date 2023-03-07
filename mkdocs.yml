@@ -75,6 +75,8 @@ nav:
       - Layer 2: 
         - Layer 2: lernberichte/netsec/layer2/anfang.md
         - Geschichte Netzwerkkabeln: lernberichte/netsec/layer2/geschichte.md
+        - Transportarten: lernberichte/netsec/layer2/transportarten.md
+        - Twisted-Pair: lernberichte/netsec/layer2/twistedpair.md 
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

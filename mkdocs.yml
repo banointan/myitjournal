@@ -41,6 +41,7 @@ nav:
   - Tagesberichte:
     - 2023:
       - März: 
+        - 08.03.2023: tagesberichte/2023/marz/tb21.md
         - 01.03.2023: tagesberichte/2023/marz/tb20.md
       - Februar:
         - 28.02.2023: tagesberichte/2023/februar/tb19.md
@@ -76,7 +77,8 @@ nav:
         - Layer 2: lernberichte/netsec/layer2/anfang.md
         - Geschichte Netzwerkkabeln: lernberichte/netsec/layer2/geschichte.md
         - Transportarten: lernberichte/netsec/layer2/transportarten.md
-        - Twisted-Pair: lernberichte/netsec/layer2/twistedpair.md 
+        - Twisted-Pair: lernberichte/netsec/layer2/twistedpair.md
+        - Lizenkabel: lernberichte/netsec/layer2/lizen.md 
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

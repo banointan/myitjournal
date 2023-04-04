@@ -1,4 +1,4 @@
-# Layer 2
+# Layer 1
 ## Welche Transport Arten gibt es?
 
 Grundsätzlich gibt es diese drei Übertragungsmedium:

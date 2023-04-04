@@ -40,6 +40,8 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2023:
+      - April:
+        - 04.04.2023: tagesberichte/2023/april/tb22.md
       - März: 
         - 08.03.2023: tagesberichte/2023/marz/tb21.md
         - 01.03.2023: tagesberichte/2023/marz/tb20.md
@@ -73,12 +75,12 @@ nav:
         - OSI: lernberichte/netsec/refmod/osi.md
         - TCP/IP: lernberichte/netsec/refmod/tcp-ip.md
         - Unterschied: lernberichte/netsec/refmod/unterschied.md
-      - Layer 2: 
-        - Layer 2: lernberichte/netsec/layer2/anfang.md
-        - Geschichte Netzwerkkabeln: lernberichte/netsec/layer2/geschichte.md
-        - Transportarten: lernberichte/netsec/layer2/transportarten.md
-        - Twisted-Pair: lernberichte/netsec/layer2/twistedpair.md
-        - Lizenkabel: lernberichte/netsec/layer2/lizen.md 
+      - Layer 1: 
+        - Layer 1: lernberichte/netsec/layer1/anfang.md
+        - Geschichte Netzwerkkabeln: lernberichte/netsec/layer1/geschichte.md
+        - Transportarten: lernberichte/netsec/layer1/transportarten.md
+        - Twisted-Pair: lernberichte/netsec/layer1/twistedpair.md
+        - Lizenkabel: lernberichte/netsec/layer1/lizen.md 
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

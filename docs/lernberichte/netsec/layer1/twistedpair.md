@@ -1,4 +1,4 @@
-# Layer 2
+# Layer 1
 ## Twisted-Pair Kabel
 
 Twisted-Pair Kabel steht für Kabel mit verdrillten Adernpaaren oder Kabel mit verdrillten Doppeladern, da in dieser Kabel die Adern paarweise miteinander verdrillt sind. Bei den Twisted-Pair Kabel wird Kupfer verwendet, um die Daten zu übertragen und als Anschluss wird standartmässig der RJ45 verwendet.

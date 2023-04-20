@@ -86,6 +86,7 @@ nav:
         - Lizenkabel: lernberichte/netsec/layer1/lizen.md
         - Kupferkabel Anschluss: lernberichte/netsec/layer1/kupferanschluss.md
         - Glasfaser: lernberichte/netsec/layer1/glasfaser.md 
+        - Glasfaser Anschluss: lernberichte/netsec/layer1/glasfaseranschluss.md
     - HPC:      
       - Tools: 
         - Tools Dokumentation: lernberichte/hpc/tools/lb03.md

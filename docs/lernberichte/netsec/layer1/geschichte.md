@@ -1,6 +1,6 @@
-# Layer-1
-## Geschichte Netzwerkkabeln
+# Geschichte Netzwerkkabeln
 
+#### KW 10
 **Text aus dem Internet:** 
 
 Typen von Netzwerkkabeln: Ein historischer Abriss

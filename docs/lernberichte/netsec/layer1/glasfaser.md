@@ -1,6 +1,7 @@
-# Layer 1
+# Glasfaser
 
-## Glasfaser
+#### KW 15
+
 Als vor vielen Jahren klar wurde, dass die bisherig genutzte Kupferkabel nicht mit den in der Zukunft erwartenden Bandbreite mithalten würden, wollte man erstmals reine Glasfaser entwickeln. Über vier Jahre lang haben die Corning-Wissenschaftler Robert Maurer, Peter Schultz und Donald Keck verschiedene Glasmischungen getestet, bis sie dann im Jahr 1970 die erste optische Glasfaser vorgestellt hatten. Diese drei Wissenschaftler hatten vor allem mit dem Problem zu kämpfen, dass am Ende einer Glasfaser weniger Licht ankommt als am Anfang hineingeleitet. Heute wird dieses Problem «Dämpfung» genannt. Durch die verbesserte Technik heutzutage werden auch über längere Strecken hinweg die maximal möglichen Datenraten immer weiter gesteigert. Auf Langstrecken werden Zwischenverstärker eingesetzt, die die am Anfang hineingeleite Signale wieder verstärken. 
 Glasfaserkabel werden hauptsächlich für die schnelle und stabile Übertragung von Daten über große Entfernungen eingesetzt. Bis heute gibt es keine andere Technologie, welches für die Datenübertragung so robust und flexibel ist wie Glasfaserkabel.
 

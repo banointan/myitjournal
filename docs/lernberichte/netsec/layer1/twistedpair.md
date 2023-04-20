@@ -1,5 +1,6 @@
-# Layer 1
-## Twisted-Pair Kabel
+# Twisted-Pair Kabel
+
+#### KW 12
 
 Twisted-Pair Kabel steht für Kabel mit verdrillten Adernpaaren oder Kabel mit verdrillten Doppeladern, da in dieser Kabel die Adern paarweise miteinander verdrillt sind. Bei den Twisted-Pair Kabel wird Kupfer verwendet, um die Daten zu übertragen und als Anschluss wird standartmässig der RJ45 verwendet.
 Twisted-Pair Kabel gibt es heutzutage in zwei- und vierpaariger Ausführung. Für Installationen ab Cat 6 sind vierpaarige Kabel zwingend. Es gibt auch noch Anschlussdosen, die man hergestellt hat, um mit einem Twisted-Pair Kabel zwei Anschlussdosen zu besetzen. Der grösste Nachteil dabei ist, dass egal wie viel Mbit/s oder Gbit/s übertragen werden, die maximale Geschwindigkeit der Datenübertragung pro Anschlussdose bei 100 Mbit/s liegt. 

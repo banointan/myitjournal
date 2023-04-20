@@ -1,5 +1,7 @@
-# Layer 1
-Anschlüsse Kupferkabel
+# Anschlüsse Kupferkabel
+
+#### KW 14
+
 Im Allgemeinen gibt es viele verschiede Netzwerk Anschlüsse, aber die, die sich durch die Jahre durchgesetzt hat, ist der RJ45-Stecker und ist somit am weitesten verbreitet. 
 
 ## RJ45

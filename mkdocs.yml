@@ -40,6 +40,8 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2023:
+      - Juni:
+        - 12.06.2023: tagesberichte/2023/juni/tb32.md
       - Mai:
         - 30.05.2023: tagesberichte/2023/mai/tb31.md
         - 29.05.2023: tagesberichte/2023/mai/tb30.md

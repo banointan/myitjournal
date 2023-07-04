@@ -90,6 +90,11 @@ nav:
         - Systemübersicht: lernberichte/ci/telekommunikation/grundlagen_telekommunikation.md
         - Geschichte:  lernberichte/ci/telekommunikation/geschichte.md
         - Akustik:  lernberichte/ci/telekommunikation/akustik.md
+        - Drahtlose Kommunikation: lernberichte/ci/telekommunikation/drahtlose_kommunikation.md
+        - Breitbandtechnologien: lernberichte/ci/telekommunikation/breitbandtechnologien.md
+        - Übertragungssysteme: lernberichte/ci/telekommunikation/ubertragungssysteme.md  
+        - Swisscom: lernberichte/ci/swisscom/geschichte.md  
+        - Mobilefunknetz: lernberichte/ci/mobilefunk/mobilefunknetz.md  
     - NETSEC:
       - Referenzmodell:
         - OSI: lernberichte/netsec/refmod/osi.md

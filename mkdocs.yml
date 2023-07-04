@@ -97,6 +97,8 @@ nav:
         - Mobilefunknetz: lernberichte/ci/mobilefunk/mobilefunknetz.md 
       - Azure Arc Projekt:
         - Einleitung: lernberichte/ci/azure/azure_arc/azure1.md 
+        - Ubuntu Server einbinden: lernberichte/ci/azure/azure_arc/ubuntu_server_einbinden.md
+        - Rocky Server einbinden: lernberichte/ci/azure/azure_arc/rocky_server_einbinden.md
     - NETSEC:
       - Referenzmodell:
         - OSI: lernberichte/netsec/refmod/osi.md

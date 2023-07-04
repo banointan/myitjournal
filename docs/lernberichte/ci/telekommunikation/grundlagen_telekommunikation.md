@@ -1,9 +1,6 @@
-# Grundlagen Telekommunikation
-
+# Systemübersicht
 #### Kalenderwoche 19, 2023
 
-
-## Systemübersicht
 ### Technische Systeme
 ![Technische Systeme](../telebilder/1.png)
 

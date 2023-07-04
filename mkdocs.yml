@@ -94,7 +94,9 @@ nav:
         - Breitbandtechnologien: lernberichte/ci/telekommunikation/breitbandtechnologien.md
         - Übertragungssysteme: lernberichte/ci/telekommunikation/ubertragungssysteme.md  
         - Swisscom: lernberichte/ci/swisscom/geschichte.md  
-        - Mobilefunknetz: lernberichte/ci/mobilefunk/mobilefunknetz.md  
+        - Mobilefunknetz: lernberichte/ci/mobilefunk/mobilefunknetz.md 
+      - Azure Arc Projekt:
+        - Einleitung: lernberichte/ci/azure/azure_arc/azure1.md 
     - NETSEC:
       - Referenzmodell:
         - OSI: lernberichte/netsec/refmod/osi.md

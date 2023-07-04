@@ -126,6 +126,7 @@ nav:
       - SSL: 
         - SSL & SSL-Zertifikat: lernberichte/hpc/ssl/lb09.md 
         - Mit SSL verschlüsseln: lernberichte/hpc/ssl/lb10.md 
+      - SSH: lernberichte/hpc/ssh/ssh.md 
     - AI:
       - Projekt:
         - Minesweeper:

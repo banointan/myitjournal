@@ -88,6 +88,8 @@ nav:
         - 09.11.2022: tagesberichte/2022/november/tb02.md
         - 08.11.2022: tagesberichte/2022/november/tb01.md
   - Lernberichte:
+    - WPS: 
+        - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:
       - Grundlagen Telekommunikation: 
         - Systemübersicht: lernberichte/ci/telekommunikation/grundlagen_telekommunikation.md

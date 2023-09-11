@@ -31,7 +31,7 @@ Schritt 8. Oben links, unter Optionen überprüfen, ob Secure Boot Support aktiv
 
 Schritt 9. Zum Schluss müssen die ISO-Dateien auf den Stick kopiert werden, somit sollte der USB-Multiboot-Stick bereitgestellt sein
 
-!!! Kompetenzen
+!!! note "Kompetenzen"
     **Methodenkompetenzen:** Ich bekam den Auftrag, einen Multiboot-Stick zu erstellen. Dazu habe ich einen YouTube Video als Hilfe genutzt.
 
 

@@ -40,6 +40,8 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2023:
+      - oktober:
+        - 10.10.2023: tagesberichte/2023/september/tb44.md
       - september:
         - 27.09.2023: tagesberichte/2023/september/tb43.md
         - 20.09.2023: tagesberichte/2023/september/tb42.md

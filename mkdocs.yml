@@ -101,7 +101,8 @@ nav:
         - 08.11.2022: tagesberichte/2022/november/tb01.md
   - Lernberichte:
     - WPS: 
-        - Intune: lernberichte/wps/intune/theorie_intune.md
+        - Microsoft Intune: 
+          - Intune Einführung: lernberichte/wps/intune/theorie_intune.md
           - Intune Einrichtung: lernberichte/wps/intune/einrichtung/vorbereitung.md
         - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:

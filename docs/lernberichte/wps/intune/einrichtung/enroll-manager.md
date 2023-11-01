@@ -10,7 +10,7 @@ Um ein DEM-Konto einzurichten, muss der Benutzer, den man berechtigen will berei
 
 Um einen Benutzer zu berechtigen, muss man wie folgt vorgehen:
 
-Schritt 1 Intune öffnen
+Schritt 1 [Intune](https://endpoint.microsoft.com/) öffnen
 
 Schritt 2 Zu «Devices > Enroll devices > Device enrollment managers» navigieren und auf «Add» klicken
 

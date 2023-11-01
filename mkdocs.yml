@@ -106,9 +106,10 @@ nav:
           - Intune Einrichtung: 
             - Vorbereitung: lernberichte/wps/intune/einrichtung/vorbereitung.md
             - MDM/DNS Records: lernberichte/wps/intune/einrichtung/records.md
-            - Terms and Conditions: lernberichte/wps/intune/einrichtung/nutzungsbedingung.md
             - Automatic Enrollment: lernberichte/wps/intune/einrichtung/auto-enrollment.md
-            
+            - Terms and Conditions: lernberichte/wps/intune/einrichtung/nutzungsbedingung.md
+            - Enrollment device limit restrictions: lernberichte/wps/intune/einrichtung/enroll-device-limit.md
+            - 
         - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:
       - Grundlagen Telekommunikation: 

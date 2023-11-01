@@ -102,6 +102,7 @@ nav:
   - Lernberichte:
     - WPS: 
         - Intune: lernberichte/wps/intune/theorie_intune.md
+          - Intune Einrichtung: lernberichte/wps/intune/einrichtung/vorbereitung.md
         - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:
       - Grundlagen Telekommunikation: 

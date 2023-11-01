@@ -102,8 +102,10 @@ nav:
   - Lernberichte:
     - WPS: 
         - Microsoft Intune: 
-          - Intune Einführung: lernberichte/wps/intune/theorie_intune.md
-          - Intune Einrichtung: lernberichte/wps/intune/einrichtung/vorbereitung.md
+          - Intune Einstieg: lernberichte/wps/intune/theorie_intune.md
+          - Intune Einrichtung: 
+            - Vorbereitung: lernberichte/wps/intune/einrichtung/vorbereitung.md
+            - 
         - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:
       - Grundlagen Telekommunikation: 

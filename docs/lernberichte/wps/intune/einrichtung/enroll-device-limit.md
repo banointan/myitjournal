@@ -2,7 +2,8 @@
 
 **KW42-2023**
 
-Enrollment device limit restrictions
+## Enrollment device limit restrictions
+
 Standartmässig kann jeder Benutzer im Intune maximal 5 Geräte selbst ins Intune registrieren. Wir als Administratoren haben die Möglichkeit die Anzahl der maximalen Geräte bis auf 15 Geräte zu erhöhen oder auch auf 1 zu kürzen, so dass ein Standart Benutzer nur sein Arbeitsgerät ins Intune einbinden kann. 
 
 Um diese Einstellungen zu bearbeiten, muss man wie folgt vorgehen:

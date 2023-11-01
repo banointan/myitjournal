@@ -1,5 +1,7 @@
 # Einrichten der Intune Umgebung 
 
+**KW38-2023**
+
 ## Vorbereitung
 
 Um mit Intune arbeiten zu können, muss man zuerst einen Microsoft 365 Tenant mit einem Abonnement erstellen. Schliesslich muss überprüft werden, ob das Abonnement eine Intune-Lizenz hat. Unter «M365 Maps» kann nachgeschlagen werden, welche Lizenzen Intune beinhaltet. 

@@ -1,5 +1,7 @@
 # Einrichten der Intune Umgebung 
 
+**KW39-2023**
+
 ## MDM/DNS Records erstellen
 
 Falls man eine eigene Domain hat, kann man man dies wie hier beschrieben, konfigurieren. Da ich aber keine andere Domain habe, übersprang ich diesen Schritt. 

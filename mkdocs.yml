@@ -109,7 +109,7 @@ nav:
             - Automatic Enrollment: lernberichte/wps/intune/einrichtung/auto-enrollment.md
             - Terms and Conditions: lernberichte/wps/intune/einrichtung/nutzungsbedingung.md
             - Enrollment device limit restrictions: lernberichte/wps/intune/einrichtung/enroll-device-limit.md
-            - 
+            - Device Enrollment Manager: lernberichte/wps/intune/einrichtung/enroll-manager.md
         - Multiboot-Stick: lernberichte/wps/multiboot.md
     - CI:
       - Grundlagen Telekommunikation: 

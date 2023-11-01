@@ -106,6 +106,7 @@ nav:
           - Intune Einrichtung: 
             - Vorbereitung: lernberichte/wps/intune/einrichtung/vorbereitung.md
             - MDM/DNS Records: lernberichte/wps/intune/einrichtung/records.md
+            - Terms and Conditions: lernberichte/wps/intune/einrichtung/nutzungsbedingung.md
             - Automatic Enrollment: lernberichte/wps/intune/einrichtung/auto-enrollment.md
             
         - Multiboot-Stick: lernberichte/wps/multiboot.md

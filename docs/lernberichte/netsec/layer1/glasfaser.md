@@ -36,8 +36,10 @@ Singlemode Fasern haben einen Glasfaserkern mit einem Durchmesser von 9 Mikromet
 
 #### Singlemode Typen
 Beim Singlemode Faser gibt es zwei verschiedene Typen:
+
 - OS1
 - OS2
+
 Das OS dabei steht für Operating System. OS1-Kabel werden vor allem für den Aufbau von Netzwerkinfrastrukturen in den Innenräumen sowie für kurze Entfernungen verwendet. OS2-Kabel werden für Aussenanwendungen bevorzugt. OS2-Kabeln übertreffen die Leistung von OS1 in Bezug auf die Dämpfung. Das ist einer der Gründe, wieso die OS1-Glasfaserkabeln weniger kosten als OS2-Kabeln. 
 
 ![Singlemode](../bilder/os1vsos2.png){ width="100%"}
@@ -46,7 +48,7 @@ Das OS dabei steht für Operating System. OS1-Kabel werden vor allem für den Au
 ![Multimode](../bilder/multimode.png){ width="80%"}
 
 Multimode Fasern haben im Vergleich zu Singlemode Fasern einen viel grösseren Glasfaserkern. 
-
+![Multimode](../bilder/multimode.png){ width="80%"
 #### Multimode Typen
 Bei der Multimode-Patchkabeln gibt es 5 verschiedene Typen: 
 

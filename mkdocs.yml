@@ -40,13 +40,16 @@ nav:
   - Home: index.md
   - Tagesberichte:
     - 2023:
-      - oktober:
+      - November:
+        - 08.11.2023: tagesberichte/2023/oktober/tb50.md
+        - 23.11.2023: tagesberichte/2023/oktober/tb49.md
+      - Oktober:
         - 26.10.2023: tagesberichte/2023/oktober/tb48.md
         - 20.10.2023: tagesberichte/2023/oktober/tb47.md
         - 18.10.2023: tagesberichte/2023/oktober/tb46.md
         - 13.10.2023: tagesberichte/2023/oktober/tb45.md
         - 10.10.2023: tagesberichte/2023/oktober/tb44.md
-      - september:
+      - September:
         - 27.09.2023: tagesberichte/2023/september/tb43.md
         - 20.09.2023: tagesberichte/2023/september/tb42.md
         - 20.09.2023: tagesberichte/2023/september/tb41.md

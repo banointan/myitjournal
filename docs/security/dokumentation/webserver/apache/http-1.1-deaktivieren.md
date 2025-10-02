@@ -15,6 +15,12 @@ Apache requires the `mod_http2` module to support HTTP/2. To check if it’s ena
 apache2ctl -M | grep http2
 ```
 
-If you see http2_module (shared), it means the module is active.
+If you see `http2_module (shared)`, it means the module is active.
 
-If there is no output, enable the module with:
+If there is **no** output, enable the module with:
+```bash
+sudo a2enmod http2
+```
+```bash
+sudo systemctl restart apache2
+```

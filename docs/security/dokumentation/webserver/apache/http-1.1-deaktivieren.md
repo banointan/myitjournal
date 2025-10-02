@@ -1,7 +1,9 @@
 # Apache
 ## Disable HTTP/1.1 and Enable Only HTTP/2 (h2)
 
-This guide explains how to configure Apache so that **only HTTP/2 (h2)** is allowed, disabling HTTP/1.1 entirely. It includes all necessary steps, explanations, configuration examples, and verification commands based on the official Apache documentation.
+This guide explains how to configure Apache so that **only HTTP/2 (h2)** is allowed, disabling HTTP/1.1 entirely. It includes all necessary steps, explanations, configuration examples, and verification commands based on the official Apache documentation. 
+
+https://httpd.apache.org/docs/2.4/howto/http2.html#basic-config
 
 ---
 
@@ -11,6 +13,7 @@ Apache requires the `mod_http2` module to support HTTP/2. To check if it’s ena
 
 ```bash
 apache2ctl -M | grep http2
+```
 
 If you see http2_module (shared), it means the module is active.
 

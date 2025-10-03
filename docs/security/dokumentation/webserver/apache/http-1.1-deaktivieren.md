@@ -7,6 +7,11 @@ This setup applies to **Linux-based systems**, especially **Debian-based distrib
 
 It may also be adapted for other Unix-like systems (e.g. CentOS, Fedora, Arch), but paths and module management commands may differ slightly.
 
+#### Prerequisites
+- Apache version 2.4.17 or higher (required for HTTP/2 support)
+- SSL certificate already configured
+- Root access to your server
+
 ---
 
 ### Step 1: Verify if `mod_http2` is Installed and Enabled
@@ -35,7 +40,7 @@ LoadModule http2_module modules/mod_http2.so
 ---
 
 ### Step 2: Understand the `Protocols` Directive
-**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 or just read the [summary overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
+**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
 
 Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
 

@@ -112,7 +112,9 @@ sudo nano /etc/apache2/sites-available/default-ssl.conf
 ⚠️ **Note:** Depending on your system setup or if configuration files have been renamed or moved, the exact path may vary. Adjust accordingly to match your environment.
 
 Inside the `<VirtualHost *:443>` block, add or modify the following lines to enable only HTTP/2:
+
 - `Protocols h2`
+
 - `ProtocolsHonorOrder On`
 
 ```bash

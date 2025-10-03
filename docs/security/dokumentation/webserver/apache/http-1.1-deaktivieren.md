@@ -35,7 +35,7 @@ LoadModule http2_module modules/mod_http2.so
 ---
 
 ### Step 2: Understand the `Protocols` Directive
-**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2.
+**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 or just read the [summary overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
 
 Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
 

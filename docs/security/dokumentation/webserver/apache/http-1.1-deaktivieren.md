@@ -33,7 +33,9 @@ LoadModule http2_module modules/mod_http2.so
 ---
 
 ### Step 2: Understand the `Protocols` Directive
-Apache’s Protocols directive controls which HTTP versions your server supports and in which order.
+**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2.
+
+Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
 
 The official documentation often shows configurations like:
 ```bash
@@ -58,5 +60,24 @@ Protocols http/1.1
 ```
 This configuration enables only HTTP/1.1 globally but HTTP/2 plus HTTP/1.1 on the `test.example.org` SSL host.
 
+#### Apache Protocol Selection Overview
+
+To clarify how Apache selects the protocol based on your configuration, here’s a summary of common `Protocols` directive setups:
+
+| Protocols Directive        | Behavior                                         |
+|---------------------------|--------------------------------------------------|
+| `Protocols h2 http/1.1`   | Prefers HTTP/2, allows fallback to HTTP/1.1     |
+| `Protocols http/1.1 h2`   | Prefers HTTP/1.1, uses HTTP/2 only if client insists |
+| `Protocols h2`            | Allows only HTTP/2, disables HTTP/1.1 completely |
+
+The following table explains how the `ProtocolsHonorOrder` directive affects enforcement of your protocol preferences:
+
+| ProtocolsHonorOrder       | Effect                                               |
+|--------------------------|------------------------------------------------------|
+| `ProtocolsHonorOrder On`                     | Apache enforces your specified protocol order, ignoring client preferences |
+| `ProtocolsHonorOrder Off`                    | Client may override your order and choose a different protocol (e.g., HTTP/1.1) |
+
+
 ---
 
+### Step 3: Disable HTTP/1.1 and Allow Only HTTP/2

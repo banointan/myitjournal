@@ -1,5 +1,4 @@
-# Apache
-## Disable HTTP/1.1 and Enable Only HTTP/2 (h2)
+# Disable HTTP/1.1 and Enable Only HTTP/2 (h2)
 
 This guide explains how to configure Apache so that **only HTTP/2 (h2)** is allowed, disabling HTTP/1.1 entirely. It includes all necessary steps, explanations, configuration examples, and verification commands based on the [official Apache documentation](https://httpd.apache.org/docs/2.4/howto/http2.html#basic-config). 
 
@@ -7,14 +6,14 @@ This setup applies to **Linux-based systems**, especially **Debian-based distrib
 
 It may also be adapted for other Unix-like systems (e.g. CentOS, Fedora, Arch), but paths and module management commands may differ slightly.
 
-#### Prerequisites
+### Prerequisites
 - Apache version 2.4.17 or higher (required for HTTP/2 support)
 - SSL certificate already configured
 - Root access to your server
 
 ---
 
-### Step 1: Verify if `mod_http2` is Installed and Enabled
+## Step 1: Verify if `mod_http2` is Installed and Enabled
 
 Apache requires the `mod_http2` module to support HTTP/2. To check if it’s enabled, open a terminal on your server and run:
 
@@ -39,7 +38,7 @@ LoadModule http2_module modules/mod_http2.so
 ```
 ---
 
-### Step 2: Understand the `Protocols` Directive
+## Step 2: Understand the `Protocols` Directive
 **Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
 
 Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
@@ -85,7 +84,7 @@ However, for the virtual host `test.example.org`, the configuration explicitly e
 
 This setup is useful when you want to offer flexible protocol negotiation globally, while enforcing modern protocol usage like HTTP/2 for specific hosts or services.
 
-#### Apache Protocol Selection Overview
+### Apache Protocol Selection Overview
 
 To clarify how Apache selects the protocol based on your configuration, here’s a summary of common `Protocols` directive setups:
 
@@ -104,5 +103,63 @@ The following table explains how the `ProtocolsHonorOrder` directive affects enf
 
 ---
 
-### Step 3: Disable HTTP/1.1 and Allow Only HTTP/2
+## Step 3: Disable HTTP/1.1 and Allow Only HTTP/2
 
+Open a terminal on your server and edit the SSL VirtualHost configuration file with your preferred editor (e.g. nano, vim, code):
+```bash
+sudo nano /etc/apache2/sites-available/default-ssl.conf
+```
+⚠️ **Note:** Depending on your system setup or if configuration files have been renamed or moved, the exact path may vary. Adjust accordingly to match your environment.
+
+Inside the `<VirtualHost *:443>` block, add or modify the following lines to enable only HTTP/2:
+- `Protocols h2`
+- `ProtocolsHonorOrder On`
+
+```bash
+<VirtualHost *:443>
+    ServerName example.com
+
+    Protocols h2
+    ProtocolsHonorOrder On
+
+    # Additional SSL and server configurations...
+</VirtualHost>
+```
+Save the file and exit the editor. Then test your Apache configuration:
+```bash
+sudo apachectl configtest
+```
+This command checks the Apache web server’s configuration files for syntax errors or misconfigurations. If the output says `Syntax OK`, restart Apache to apply the changes:
+```bash
+sudo systemctl restart apache2
+```
+
+## Step 4: Check if HTTP/2 is Active
+### Option 1: Using curl
+Open a terminal and run the following command to test whether your server is using HTTP/2:
+
+```bash
+curl --http2 -sI https://your-server-ip -w '%{http_version}\n'
+```
+
+🟡 Note: If you're using a self-signed certificate, disable certificate verification:
+```bash
+curl --http2 -k -sI https://your-server-ip -w '%{http_version}\n'
+```
+
+Output meanings:
+
+- 2 → ✅ HTTP/2 is active
+- 1.1 → ⚠️ HTTP/1.1 is in use (HTTP/2 not negotiated)
+- 0 or error → ❌ Certificate not accepted or HTTP/2 not enabled
+
+### Option 2: Using openssl
+Open a terminal and run the following command to test whether your server is using HTTP/2:
+```bash
+openssl s_client -connect your-server-ip:443 -alpn h2 </dev/null 2>/dev/null | grep -i "ALPN"
+```
+
+**Expected output:**
+
+- ALPN protocol: h2 → ✅ HTTP/2 is negotiated
+- No output or different protocol → ❌ HTTP/2 not supported or not negotiated

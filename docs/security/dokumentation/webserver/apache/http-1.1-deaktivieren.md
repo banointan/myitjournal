@@ -21,7 +21,7 @@ Apache requires the `mod_http2` module to support HTTP/2. To check if it’s ena
 apache2ctl -M | grep http2
 ```
 
-If you see `http2_module (shared)`, it means the module is active.
+If you see `http2_module (shared)`, it means the module is active, and you can proceed to [Step 2](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#step-2-understand-the-protocols-directive).
 
 If there is **no** output, enable the module with:
 ```bash
@@ -39,7 +39,7 @@ LoadModule http2_module modules/mod_http2.so
 ---
 
 ## Step 2: Understand the `Protocols` Directive
-**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
+**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 and move directly to [Step 3](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#step-3-disable-http11-and-allow-only-http2) or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
 
 Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
 
@@ -113,7 +113,7 @@ sudo nano /etc/apache2/sites-available/default-ssl.conf
 
 Inside the `<VirtualHost *:443>` block, add or modify the following lines to enable only HTTP/2:
 
-- `Protocols h2`
+- `Protocols h2 http/1.1`
 
 - `ProtocolsHonorOrder On`
 
@@ -121,7 +121,7 @@ Inside the `<VirtualHost *:443>` block, add or modify the following lines to ena
 <VirtualHost *:443>
     ServerName example.com
 
-    Protocols h2
+    Protocols h2 http/1.1
     ProtocolsHonorOrder On
 
     # Additional SSL and server configurations...
@@ -161,6 +161,7 @@ Open a terminal and run the following command to test whether your server is usi
 ```bash
 openssl s_client -connect your-server-ip:443 -alpn h2 </dev/null 2>/dev/null | grep -i "ALPN"
 ```
+Replace `your-server-ip` with the actual IP address or domain name of your server (e.g., example.com or 192.168.1.100).
 
 **Expected output:**
 

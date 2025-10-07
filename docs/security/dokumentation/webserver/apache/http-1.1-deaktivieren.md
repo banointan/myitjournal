@@ -1,6 +1,8 @@
-# Disable HTTP/1.1 and Enable Only HTTP/2 (h2)
+# Allow HTTP/2 with HTTP/1.1 Fallback
 
-This guide explains how to configure Apache so that **only HTTP/2 (h2)** is allowed, disabling HTTP/1.1 entirely. It includes all necessary steps, explanations, configuration examples, and verification commands based on the [official Apache documentation](https://httpd.apache.org/docs/2.4/howto/http2.html#basic-config). 
+This guide explains how to configure Apache to prefer HTTP/2 (h2) while still allowing fallback to HTTP/1.1 for clients that do not support the newer protocol. This ensures optimal performance for modern browsers while maintaining compatibility with legacy systems. Alternatively, if you want to enforce HTTP/2 only and completely disable HTTP/1.1, the guide also shows how to configure Apache, ensuring that only clients supporting HTTP/2 can connect. 
+
+It includes all necessary steps, explanations, configuration examples, and verification commands based on the [official Apache documentation](https://httpd.apache.org/docs/2.4/howto/http2.html#basic-config). 
 
 This setup applies to **Linux-based systems**, especially **Debian-based distributions** such as **Ubuntu**, where Apache is installed via package managers and modules are managed using `a2enmod`.  
 
@@ -39,7 +41,7 @@ LoadModule http2_module modules/mod_http2.so
 ---
 
 ## Step 2: Understand the `Protocols` Directive
-**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 and move directly to [Step 3](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#step-3-disable-http11-and-allow-only-http2) or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
+**Note:** This chapter is for informational purposes. If you are already familiar with Apache’s protocol negotiation and the Protocols directive, you may safely skip Step 2 and move directly to [Step 3](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#step-3-prefer-http2-with-http11-fallback) or just read the [Apache Protocol Selection Overview](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#apache-protocol-selection-overview).
 
 Apache’s Protocols directive controls which HTTP versions your server supports and in which order. 
 
@@ -117,6 +119,7 @@ Inside the `<VirtualHost *:443>` block, add or modify the following lines to ena
 
 - `ProtocolsHonorOrder On`
 
+#### default-ssl.conf
 ```bash
 <VirtualHost *:443>
     ServerName example.com

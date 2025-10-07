@@ -143,17 +143,18 @@ Open a terminal and run the following command to test whether your server is usi
 ```bash
 curl --http2 -sI https://your-server-ip -w '%{http_version}\n'
 ```
+Replace `your-server-ip` with your actual server's IP address or domain name (e.g., example.com or 192.168.1.100). This command will return the HTTP version used in the response, allowing you to verify if HTTP/2 is active.
 
-🟡 Note: If you're using a self-signed certificate, disable certificate verification:
+Note: If you're using a self-signed certificate, the -k option disables certificate verification, allowing the request to proceed without validating the SSL certificate.
 ```bash
 curl --http2 -k -sI https://your-server-ip -w '%{http_version}\n'
 ```
 
 Output meanings:
 
-- 2 → ✅ HTTP/2 is active
-- 1.1 → ⚠️ HTTP/1.1 is in use (HTTP/2 not negotiated)
-- 0 or error → ❌ Certificate not accepted or HTTP/2 not enabled
+- `2` → ✅ HTTP/2 is active
+- `1.1` → ⚠️ HTTP/1.1 is in use
+- `0` or `error` → ❌ Certificate not accepted or HTTP/2 not enabled
 
 ### Option 2: Using openssl
 Open a terminal and run the following command to test whether your server is using HTTP/2:
@@ -163,5 +164,5 @@ openssl s_client -connect your-server-ip:443 -alpn h2 </dev/null 2>/dev/null | g
 
 **Expected output:**
 
-- ALPN protocol: h2 → ✅ HTTP/2 is negotiated
+- `ALPN protocol: h2` → ✅ HTTP/2 is active
 - No output or different protocol → ❌ HTTP/2 not supported or not negotiated

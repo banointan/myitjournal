@@ -111,7 +111,7 @@ Open a terminal on your server and edit the SSL VirtualHost configuration file w
 ```bash
 sudo nano /etc/apache2/sites-available/default-ssl.conf
 ```
-⚠️ **Note:** Depending on your system setup or if configuration files have been renamed or moved, the exact path may vary. Adjust accordingly to match your environment.
+⚠️ **Note:** Depending on your system setup or if configuration files have been renamed or moved, the exact path may vary. Adjust accordingly to match your environment. 
 
 Inside the `<VirtualHost *:443>` block, add or modify the following lines to enable only HTTP/2:
 
@@ -119,7 +119,10 @@ Inside the `<VirtualHost *:443>` block, add or modify the following lines to ena
 
 - `ProtocolsHonorOrder On`
 
+Make sure you are editing the correct <VirtualHost *:443> block. If your server hosts multiple virtual hosts, check the ServerName or ServerAlias directives to ensure you are applying the change to the intended domain. Otherwise, the configuration might affect the wrong site or have no effect at all. 
+
 #### default-ssl.conf
+Use the following as a reference for your configuration:
 ```bash
 <VirtualHost *:443>
     ServerName example.com

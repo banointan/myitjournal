@@ -13,6 +13,8 @@ It may also be adapted for other Unix-like systems (e.g. CentOS, Fedora, Arch), 
 - SSL certificate already configured
 - Root access to your server
 
+**Summary:** If the HTTP/2 module is active, you can view an example of how the configuration file [default-ssl.conf](https://banointan.github.io/myitjournal/security/dokumentation/webserver/apache/http-1.1-deaktivieren/#default-sslconf) might look.
+
 ---
 
 ## Step 1: Verify if `mod_http2` is Installed and Enabled

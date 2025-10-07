@@ -150,7 +150,7 @@ Note: If you're using a self-signed certificate, the -k option disables certific
 curl --http2 -k -sI https://your-server-ip -w '%{http_version}\n'
 ```
 
-Output meanings:
+**Output meanings:**
 
 - `2` → ✅ HTTP/2 is active
 - `1.1` → ⚠️ HTTP/1.1 is in use

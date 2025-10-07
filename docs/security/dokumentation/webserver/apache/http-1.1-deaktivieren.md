@@ -103,7 +103,7 @@ The following table explains how the `ProtocolsHonorOrder` directive affects enf
 
 ---
 
-## Step 3: Disable HTTP/1.1 and Allow Only HTTP/2
+## Step 3: Prefer HTTP/2 with HTTP/1.1 Fallback
 
 Open a terminal on your server and edit the SSL VirtualHost configuration file with your preferred editor (e.g. nano, vim, code):
 ```bash
